@@ -4,11 +4,11 @@ Documentation for setting up and adding people to the CCB shiny account
 ## First app of new user
 
 1. Log in on shinyapps.io
-2. Go to Members --> Invite User
+2. Go to Members &rarr; Invite User
 3. In R, install `rsconnect` - `install.packages("rsconnect")`
 4. Add Shinyapps security token in `R`
 
-   Shinyapps.io --> account --> token --> show --> copy --> run in `R`
+   Shinyapps.io &rarr; account &rarr; token &rarr; show &rarr; copy &rarr; run in `R`
 6. Deploy app: `rsconnect::deployApp('/path/to/shiny/dir')`
 
    If custom names are required (recommended) you can run it in the following way: `rsconnect::deployApp('path/to/shiny/dir', appName = "Your-App_Name")`
@@ -16,7 +16,7 @@ Documentation for setting up and adding people to the CCB shiny account
    Check out the help for more options `?rsconnect::deployApp`
 8. Change settings of your app if needed
 
-   Shinyapps.io --> applications --> all --> {your_app} --> settings
+   Shinyapps.io &rarr; applications &rarr; all &rarr; {your_app} &rarr; settings
 
 
 ## Additional info
@@ -28,6 +28,6 @@ Documentation for setting up and adding people to the CCB shiny account
 ### Add custom domains
 This is not operational yet, need to get back to VIB Communications.
 
-Shinyapps.io --> Account --> Domains --> Add domain
+Shinyapps.io &rarr; Account &rarr; Domains &rarr; Add domain
 
 
