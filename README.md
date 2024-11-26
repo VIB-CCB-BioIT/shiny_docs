@@ -9,8 +9,8 @@ Documentation for setting up and adding people to the CCB shiny account
 4. Add Shinyapps security token in `R`
    Shinyapps.io --> account --> token --> show --> copy --> run in `R`
 5. Deploy app: `rsconnect::deployApp('/path/to/shiny/dir')`
-   If custom names are required (recommended) you can run it in the following way: `rsconnect::deployApp('path/to/shiny/dir', appName = "Your-App_Name")`
-   Check out the help for more options `?rsconnect::deployApp`
+     If custom names are required (recommended) you can run it in the following way: `rsconnect::deployApp('path/to/shiny/dir', appName = "Your-App_Name")`
+     Check out the help for more options `?rsconnect::deployApp`
 7. Change settings of your app if needed
    Shinyapps.io --> applications --> all --> {your_app} --> settings
 
