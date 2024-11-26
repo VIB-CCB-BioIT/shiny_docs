@@ -1,4 +1,4 @@
-# shiny_docs
+# Shiny documentation
 Documentation for setting up and adding people to the CCB shiny account
 
 ## First app of new user
