@@ -20,9 +20,9 @@ Documentation for setting up and adding people to the CCB shiny account
 
 
 ## Additional info
-### Increase max bundle size of app (default is 1GB, max is 3GB)
+### Increase max bundle size of app (default is 1GB, max is 5GB)
 
-`options(rsconnect.max.bundle.size=3145728000)`
+`options(rsconnect.max.bundle.size=5145728000)`
 
 
 ### Add custom domains
