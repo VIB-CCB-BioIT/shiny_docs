@@ -26,10 +26,6 @@ Documentation for setting up and adding people to the CCB shiny account
 
 
 ### Add custom domains
-This is not operational yet, need to get back to VIB Communications.
-
-Shinyapps.io &rarr; Account &rarr; Domains &rarr; Add domain
-
 Applications deployed on shinyapps.io are accessible by loading a URL of the form: https://<account-name>.shinyapps.io/<application-name>/. Organizations that would like to have greater control over the URLs that their applications are served on can subscribe to the Professional plan and host the application on domains that belong to them.
 
 To enable this feature, which is only available with the Professional plan, you will need to follow these steps:
